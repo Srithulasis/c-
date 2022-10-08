@@ -93,6 +93,15 @@ int main()
 		cl1_chem[i].GenerateMarks(5);
 		cl1_math[i].GenerateMarks(2);
 	}
+	oupt:
+enter the student name:sree
+enter the student reg no:192111004
+enter the chemistry marks:77
+enter the physics marks:89
+enter the mathemetics marks:54
+total mark:220
+average:65%
+
 
 
 	cout << "\nThe total marks of each student of a class in Physics, Chemistry and Mathematics: \n\n";
