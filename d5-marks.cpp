@@ -103,32 +103,3 @@ total mark:220
 average:65%
 
 
-
-	cout << "\nThe total marks of each student of a class in Physics, Chemistry and Mathematics: \n\n";
-
-	for (int i = 0; i < num; i++) { // sums of marks
-		cout << "Roll number of student is " << cl1_phys[i].rollNumber << endl;
-
-		cout << "The total marks in Physics is " << cl1_phys[i].sum_of_marks() << endl;
-		cout << "The total marks in Chemistry is " << cl1_chem[i].sum_of_marks() << endl;
-		cout << "The total marks in Mathematics is " << cl1_math[i].sum_of_marks() << endl;
-
-		cout << endl;
-	}
-
-	cout << endl << "--------------------------" << endl;
-
-	cout << "\nThe average marks : \n\n";
-
-	for (int i = 0; i < num; i++) { // averages of marks
-		cout << "Roll number of student is " << cl1_phys[i].rollNumber << endl;
-
-		cout << "The average mark in Physics is " << cl1_phys[i].avarage() << endl;
-		cout << "The average mark in Chemistry is " << cl1_chem[i].avarage() << endl;
-		cout << "The average mark in Mathematics is " << cl1_math[i].avarage() << endl;
-
-		cout << endl;
-	}
-
-	return 0;
-}
